@@ -1,0 +1,14 @@
+Flask              
+blinker            
+certifi            
+charset-normalizer 
+click              
+idna               
+itsdangerous       
+Jinja2             
+MarkupSafe         
+pip                
+requests           
+setuptools         
+urllib3            
+Werkzeug           
