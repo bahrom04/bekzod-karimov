@@ -33,6 +33,5 @@ def send_message():
     else:
         return 'Failed to send message', 500
 
-if __name__ == '__main__':
-    app.debug = True
-    app.run()
+app.debug = True
+app.run()
