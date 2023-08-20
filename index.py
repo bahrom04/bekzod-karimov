@@ -33,5 +33,5 @@ def send_message():
     else:
         return 'Failed to send message', 500
 
-app.debug = True
+app.debug = False
 app.run()
