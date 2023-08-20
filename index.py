@@ -33,5 +33,5 @@ def send_message():
     else:
         return 'Failed to send message', 500
 
-app.debug = False
+app.debug = True
 app.run(host='0.0.0.0' ,port=5000)
