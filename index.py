@@ -10,8 +10,8 @@ def index():
 
 @app.route('/', methods=['POST'])
 def send_message():
-    chat_id = '1107759940'
-    chat_id_1 = '-930119991'  # Replace with the Telegram bot chat ID
+    chat_id_1 = '1107759940'
+    chat_id = '-930119991'  # Replace with the Telegram bot chat ID
     api_token = '6669191552:AAHknKSIT2kMeog39Qx7eS2RijzBhStvwDQ'  # Replace with your Telegram bot API token
 
     name = request.form['name']
