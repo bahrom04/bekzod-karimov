@@ -8,12 +8,15 @@ https://templatemo.com/tm-531-reflux
 
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,200;1,400;1,500&family=Merriweather:wght@300;400&family=Orbitron:wght@500&family=Space+Mono&display=swap');
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather','Times New Roman',serif;
 }
 
 #page-wraper {
-    background: url(../images/yashil.jpg) no-repeat center center fixed;
+    background: url(../images/qora.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +51,7 @@ p {
 h4 {
     font-size: 26px;
     font-weight: 700;
-    color: #fff;
+    color: #cba37c;
     letter-spacing: 0.25px;
 }
 
@@ -223,7 +226,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color:  #084d41;
+  background-color:  #000000;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -302,7 +305,7 @@ html {
 .section-heading h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color:#cba37c;
 }
 
 .section-heading .line-dec {
@@ -325,8 +328,8 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
-    color: #a43f49;
+    background-color: #000000;
+    color: #cba37c;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -335,15 +338,15 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #a43f49;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #a43f49;
+    background-color: #000000;
+    color: #cba37c;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -356,8 +359,8 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #a43f49;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 
